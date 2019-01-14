@@ -1,0 +1,17 @@
+body{
+    background-color: #04a6eb;
+    color: #FDFFFF; 
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* カラーピッカーで配色確認 */
+button{
+    color: #FDFFFF;
+    padding: 5px 20px;
+    background-color: #337AB7;
+    border-style: none;
+}/* ↑↑境界線　見えないだけで存在する */
+input{
+    height: 20px;
+}
