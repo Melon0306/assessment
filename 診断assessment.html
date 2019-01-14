@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>あなたのいいところ診断</title>
+    <link rel="stylesheet" href="診断assessment.css">
+</head>
+<body>
+    <h1>あなたのいいところは？</h1>
+    <p>診断したい名前を入れて下さい</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+<!-- 　↑↑一行の入力欄　　　　　　　　 　入力欄の大きさ　　最大文字数-->
+    <button id="assessment">診断する</button>
+    <!-- 診断結果の画面 -->
+    <div id="result-area"></div>
+    <!-- ツイート画面 -->
+    <div id="tweet-area">
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p>テスト</p>               <!-- widgets.jsがあるので実行するコードを追加が必要 -->
+    </div> 
+    <script src="診断assessment.js"></script>
+</body>
+</html>
+<!-- <a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="診断結果の文章" data-show-count="false">Tweet #あなたのいいところ</a> -->
+<!-- 　　　　スキーム　　　ホスト名　　リソース名　　?以降はクエリ 　　　　　　　　　　%から始まる16進数,URIエンコード-->
+<!-- ツイッターボタン作成サイトで作った<a>タグの方は href,class,data-text,data-show-count属性と中身 でできている>
+<!それらをJSの方へ書いていく-->
