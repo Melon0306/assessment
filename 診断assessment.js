@@ -7,7 +7,7 @@
     const tweetDivided = document.getElementById('tweet-area');
  
 /**
- * 指定した要素子を全て削除する　関数にして他のところも使いまわせれるようにする
+ * 指定した要素子を全て削除する　関数にして他のところも使いまわせれるようにする。
  * @param {HTMLElement} element HTMLの要素
  *///              要素にしたいのでelement
     function removeAllChildren(element){
